@@ -1,0 +1,10 @@
+extern int printi(int val);
+
+int do_math(int a) {
+    int x = a * 5;
+    return x + 3;
+}
+
+printi(do_math(8)-1);
+
+return;

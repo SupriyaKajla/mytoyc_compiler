@@ -1,0 +1,10 @@
+extern void printv(int val);
+
+int do_math(int a) {
+  int x = a * 2;
+  printv(x);
+  return x + 3;
+}
+
+printv(do_math(8)-1);
+return;

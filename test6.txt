@@ -1,0 +1,11 @@
+extern void printv(int val);
+
+void do_math(int a) {
+  int x = a * 2;
+  return;
+  printv(x);
+}
+
+do_math(8);
+
+return;
